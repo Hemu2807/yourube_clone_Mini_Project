@@ -1,0 +1,40 @@
+const data =[
+    {
+        "id":0,
+        'name':'all'
+    },
+    {
+        "id":1,
+        'name':'live'
+    },
+    {
+        "id":2,
+        'name':'latest'
+    },
+    {
+        "id":3,
+        'name':'music'
+    },
+    {
+        "id":4,
+        'name':'video'
+    },
+    {
+        "id":5,
+        'name':'news'
+    },
+    {
+        "id":6,
+        'name':'sports'
+    },
+    {
+        "id":7,
+        'name':'punjabi'
+    },
+    {
+        "id":8,
+        'name':'hariyanvi'
+    },
+    
+]
+export default data;

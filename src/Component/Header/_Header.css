@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navSlide {
+  position: fixed;
+  top: 0px;
+  background: white;
+  width: 20%;
+  height: 100vh;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.close{
+  left: -20%;
+}
+.show{
+  left: 0%;
+}
+.Header-main-Container {
+  /* border: 2px solid black; */
+  display: grid;
+  align-items: center;
+  align-content: center;
+  grid-template-columns: 20% 45% 10%;
+  justify-content: space-between;
+  width: 100%;
+  height: 15vh;
+  position: fixed;
+  top: 0px;
+  background-color: white;
+  z-index: 1;
+}
+.left-head {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-left: 15px;
+}
+.left-head > .humburger-icon {
+  margin: 0px 30px;
+  font-size: 1.8rem;
+  width: 100%;
+  height: 5vh;
+  cursor: pointer;
+}
+.left-head > .humburger-icon:hover {
+  color: skyblue;
+}
+.center-head {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+}
+.center-head > input {
+  width: 65%;
+  height: 3rem;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 0px 20px;
+  font-size: 1.3rem;
+  color: darkgray;
+  outline: none;
+  border: none;
+  background: #f7f7f7;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.center-head > input[type="text"]:focus {
+  border: 2px solid rgb(138, 138, 138);
+}
+.center-head > button {
+  height: 8vh;
+  border: none;
+  width: 20%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: black;
+  font-size: 22px;
+  cursor: pointer;
+}
+.center-head > button:hover {
+  color: skyblue;
+  border: 2px solid darkgray;
+}
+.right-head {
+  height: 10vh;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.right-head > button {
+  height: 8vh;
+  border: none;
+  width: 100%;
+  border-radius: 30px;
+  color: black;
+  font-size: 22px;
+  cursor: pointer;
+  background-color: transparent;
+  /* border: 1.5px solid black; */
+  font-weight: 500;
+}
+.right-head > button:hover {
+  /* background-color: #d8f1fa; */
+  color: skyblue;
+}
